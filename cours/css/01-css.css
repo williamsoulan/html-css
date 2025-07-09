@@ -1,0 +1,32 @@
+/* sélecteur {
+  propriété: valeur;
+} */
+p {
+  color: red;
+  font-size: 16px;
+}
+
+/* p : sélectionne tous les paragraphes.
+
+.ma-classe : sélectionne tous les éléments avec la classe ma-classe.
+
+#mon-id : sélectionne l’élément avec l’identifiant mon-id.
+
+div p : tous les <p> à l’intérieur d’un <div>. */
+
+/* color : couleur du texte.
+
+background-color : couleur de fond.
+
+font-size : taille de la police.
+
+margin : marge extérieure.
+
+padding : espace intérieur.
+
+border : bordure.
+
+display : type d’affichage (ex. : block, inline, flex, etc.).
+
+position : positionnement (static, relative, absolute, fixed). */
+

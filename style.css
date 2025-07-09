@@ -1,8 +1,46 @@
-/* Appliquer Roboto par défaut pour le texte */
+/* Open Sans - Regular */
+@font-face {
+  font-family: 'OpenSans';
+  src: url('assets/fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Open Sans - Bold */
+@font-face {
+  font-family: 'OpenSans';
+  src: url('assets/fonts/Open_Sans/static/OpenSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Montserrat - Regular */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Montserrat - Bold */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* Appliquer OpenSans par défaut pour le texte */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'OpenSans', sans-serif;
   margin: 0;
   padding: 0;
+  line-height: 1.5;
   background-color: #f4f4f4;
   color: #333;
 }
@@ -10,7 +48,7 @@ body {
 /* Utiliser Montserrat pour les titres */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-    color: rgb(71, 71, 71);
+  color: rgb(71, 71, 71);
 }
 
 a {
