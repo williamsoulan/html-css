@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <form>
+    <label for="mail">Adresse Mail:</label><br>
+    <input type="email" id="mail" name="mail" required><br>
+
+    <label for="pw">Mot de passe:</label><br>
+    <input type="password" id="pw" name="pw" required><br>
+
+    <label for="confirmpw">Confirmer le mot de passe:</label><br>
+    <input type="password" id="confirmpw" name="confirmpw" required><br>
+
+    <label for="gender">Sexe:</label>
+    <select name="gender" id="gender" required>
+    <option value="homme">Homme</option>
+    <option value="femme">Femme</option>
+    </select><br>
+
+    <label for="fname">Prénom:</label><br>
+    <input type="text" id="fname" name="fname" required><br>
+
+    <label for="lname">Nom:</label><br>
+    <input type="text" id="lname" name="lname" required><br>
+
+    <label for="birth">Date de naissance:</label><br>
+    <input type="date" id="birth" name="birth" required><br>
+
+    <label for="ville">Ville:</label><br>
+    <input type="text" id="ville" name="ville" required><br>
+
+    <label for="codepostal">Code Postal:</label><br>
+    <input type="number" id="codepostal" name="codepostal" required><br>
+
+    <label for="adress">Adresse:</label><br>
+    <input type="text" id="adress" name="adress" required><br>
+
+    <label for="phonenum">Numéro de téléphone:</label><br>
+    <input type="number" id="phonenum" name="phonenum" pattern="[0-9]" required><br>
+
+    <label for="choiximage">Choisir une photo de profil:</label><br>
+    <input type="file" id="choiximage" name="choiximage" accept="image/*"><br>
+
+    <br>
+    <button type="submit">S'inscrire</button>
+  </form>
+  
+<a href="login.html" target="_blank">Se connecter</a>
+</body>
+</html>

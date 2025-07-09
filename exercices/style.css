@@ -1,0 +1,84 @@
+/* Open Sans - Regular */
+@font-face {
+  font-family: 'OpenSans';
+  src: url('assets/fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Open Sans - Bold */
+@font-face {
+  font-family: 'OpenSans';
+  src: url('assets/fonts/Open_Sans/static/OpenSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Montserrat - Regular */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Montserrat - Bold */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Appliquer OpenSans par défaut pour le texte */
+body {
+  font-family: 'OpenSans', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  background-color: #f4f4f4;
+  color: #000;
+}
+
+/* Utiliser Montserrat pour les titres */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(71, 71, 71);
+}
+
+a {
+  color: rgb(0, 81, 255); /* couleur normale du lien */
+}
+
+body {
+  margin: 30px 30px;
+  background-color: rgb(201, 201, 201);
+}
+
+.separateur {
+  height: 1px;
+  background-color: rgb(71, 71, 71);
+  margin: 30px 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start; /* aligne en haut */
+  gap: 20px; /* espace entre photo et texte */
+}
+
+.container img {
+  width: 150px; /* taille de la photo */
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.texts h1, .texts h2, .texts h3 {
+  margin: 5px 0; /* espace vertical entre titres */
+}
