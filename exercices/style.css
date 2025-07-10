@@ -69,7 +69,7 @@ body {
 .container {
   display: flex;
   align-items: flex-start; /* aligne en haut */
-  gap: 20px; /* espace entre photo et texte */
+  gap: 5px; /* espace entre photo et texte */
 }
 
 .container img {
@@ -81,4 +81,17 @@ body {
 
 .texts h1, .texts h2, .texts h3 {
   margin: 5px 0; /* espace vertical entre titres */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;        /* centre le contenu horizontalement */
+  justify-content: center;    /* centre le contenu verticalement dans le container */
+  max-width: 500px;
+  margin: 32px auto 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 16px #0002;
+  padding: 32px 32px;
 }

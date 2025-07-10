@@ -66,13 +66,13 @@ body {
   width: 100%;
 }
 
-.container {
+.header {
   display: flex;
   align-items: flex-start; /* aligne en haut */
   gap: 20px; /* espace entre photo et texte */
 }
 
-.container img {
+.header img {
   width: 150px; /* taille de la photo */
   height: 200px;
   object-fit: cover;
@@ -81,4 +81,13 @@ body {
 
 .texts h1, .texts h2, .texts h3 {
   margin: 5px 0; /* espace vertical entre titres */
+}
+
+.container {
+  max-width: 900px;
+  margin: 32px auto 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 16px #0002;
+  padding: 32px 36px;
 }
