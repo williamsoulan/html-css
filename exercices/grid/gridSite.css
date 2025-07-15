@@ -21,6 +21,10 @@ ul {
     grid-template-columns: repeat(5, 1fr);
 }
 
+ul li {
+    margin: 10px;
+}
+
 .containerArticle {
     grid-row: 3;
     display: grid;
