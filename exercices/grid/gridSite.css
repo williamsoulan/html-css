@@ -18,17 +18,15 @@ nav {
 ul {
     display: grid;
     grid-column: 2;
-    grid-template-columns: 1fr repeat(5, 1fr) 1fr;
-    gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
 }
-
 
 .containerArticle {
     grid-row: 3;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
 }
-
 
 footer {
     grid-row: 4;
