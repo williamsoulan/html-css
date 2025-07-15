@@ -1,0 +1,35 @@
+.gridcontainer {
+    display: grid;
+    grid-template-rows: 4;
+}
+
+h1 {
+    grid-row: 1;
+    text-align: center;
+}
+
+nav {
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+ul {
+    display: grid;
+    grid-column: 2;
+    grid-template-columns: 1fr repeat(5, 1fr) 1fr;
+    gap: 20px;
+}
+
+
+.containerArticle {
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+footer {
+    grid-row: 4;
+}
