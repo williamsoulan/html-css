@@ -115,6 +115,13 @@ footer {
     }
 }
 
+@media (max-width: 667px) and (orientation: landscape) {
+    header {
+        background-color: #00eeff;
+        background-image: linear-gradient(90deg, #00eeff, #0084ff, #003f92);
+    }
+}
+
 @media (max-width: 576px) {
     header {
         background-color: #ffee00;
@@ -133,9 +140,4 @@ footer {
     }
 }
 
-@media (max-width: 667px) and (orientation: landscape) {
-    header {
-        background-color: #00eeff;
-        background-image: linear-gradient(90deg, #00eeff, #0084ff, #003f92);
-    }
-}
+
