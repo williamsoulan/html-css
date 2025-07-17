@@ -2,7 +2,7 @@
 /* Commentaire CSS */
 * {
     margin: 0;
-    /* padding: 0; */
+    /*padding: 0;*/
     box-sizing: border-box;
 }
 
@@ -129,7 +129,7 @@ footer {
         flex-direction: column;
     }
     section {
-        width: 100%;
+        width: 95%; /*100% augmente la taille de la fenetre*/
     }
 }
 
