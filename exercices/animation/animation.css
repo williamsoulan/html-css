@@ -1,4 +1,5 @@
-.container {
+/* card début */
+.card {
     display: grid;
     width: 300px;
     height: 500px;
@@ -56,10 +57,11 @@ img:hover {
     100%{transform:rotateY(0)}
 }
 
-.container:hover {
+.card:hover {
     animation: animationXXL linear 0.5s infinite;
 }
 
-.container:hover h1 {
+.card:hover h1 {
     animation: flip-vertical-right linear 1s infinite;
 }
+/* card fin */
