@@ -110,27 +110,32 @@ footer {
 
 
 @media (max-width: 768px) {
-    header {background-color: #00fff2;
+    header {
+        background-color: #00fff2;
     }
 }
 
 @media (max-width: 576px) {
-    header {background-color: #ffee00;
+    header {
+        background-color: #ffee00;
     }
 }
 
 @media (min-width: 390px) and (max-width: 480px) {
-    header {background-color: #ff0000;
+    header {
+        background-color: #ff0000;
     }
     main {
-    flex-direction: column;
+        flex-direction: column;
     }
     section {
-    width: 100%;
+        width: 100%;
     }
 }
 
 @media (max-width: 667px) and (orientation: landscape) {
-    header {background-image: linear-gradient(90deg, #00eeff, #0084ff, #003f92);
+    header {
+        background-color: #00eeff;
+        background-image: linear-gradient(90deg, #00eeff, #0084ff, #003f92);
     }
 }
