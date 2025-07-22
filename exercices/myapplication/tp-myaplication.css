@@ -155,7 +155,7 @@ footer {
     /* Sur très petit écran, une seule colonne */
     @media (max-width: 480px) {
         .feature-cards-grid {
-                grid-template-columns: 1;  
+        grid-template-columns: 1;  
         }
     }
 
@@ -165,8 +165,9 @@ footer {
    
     }
     .newsletter-col form {
-        /* Pour aligner input et bouton */
-        
+        display: flex;/* Pour aligner input et bouton */
+        flex-direction:row;
+        gap: 5px;
 
     }
 }
