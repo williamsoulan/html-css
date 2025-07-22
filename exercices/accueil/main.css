@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background-color: #ffffff;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #575757;
+    font-weight: 700;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    overflow: hidden;
+
+    .logo {
+        font-size: 35px;
+        color: #fff;
+    }
+    a {
+        text-decoration: none;
+        color: #fff;
+        padding: 0.3em;
+        float: left;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .icon {
+    display: none;
+    }
+}
+i {
+  font-size: 30px;
+}
+
+
+.header a:hover {
+    text-decoration: underline 2px;
+}
+
+#myTopnav {
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    background-image: linear-gradient(0deg, #d7f8fa, #95f8ff, #1eeefd);
+
+    h1 {
+        color: #000;
+    }
+    p {
+        padding: 0 50px 10px 50px;
+    }
+    button {
+        padding: 10px;
+        margin: 1px;
+        width: 10em;
+        border-radius: 10px;
+        border-color: #575757;
+        color: #575757;
+        border-style: solid;
+        background-color: #fff;
+    }
+
+    button:hover {
+    background-color: #575757;
+    color: #fff;
+    border-color: #fff;
+    }
+}
+.themes {
+    justify-items: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.themes h2 {
+    text-align: center;
+    margin-bottom: 2em;
+    color: #000;
+}
+
+.themes-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.theme-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 10vm;
+    background-color:  #95f8ff;
+    color: #000;
+    border: 1px solid #575757;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2rem; 
+
+    img {
+        width: auto;
+    }
+}
+/*
+.themes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 2;
+    margin: 5em 0;
+}
+
+.themes h2 {
+    grid-column: span 3;
+    grid-row: 1;
+    text-align: center;
+    margin-bottom: 2em;
+    color: #000;
+}
+
+.themes-grid {
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    max-width: auto;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 50px;
+}
+
+.theme-card {
+    max-width: 100%;
+    background-color:  #95f8ff;
+    color: #000;
+    border: 1px solid #575757;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+*/
+.theme-card:hover {
+    -webkit-box-shadow: 5px 5px 15px 5px rgb(0,0,0,0.3);
+    box-shadow: 5px 5px 15px 5px rgb(0,0,0,0.3);
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    align-content: center;
+    justify-content: center;
+    margin: 3em;
+    gap: 1em;
+}
+
+
+.about-text {
+    grid-column: 2;
+    justify-content: center;
+    align-items: center;
+    min-width: auto;
+    max-width: 400px;
+    color: #000;
+}
+
+.about-image {
+    grid-column: 3;
+    min-width: 400px;
+}
+
+.about-image img {
+    width: 500px;
+    margin: 1em;
+}
+
+footer {
+  height: 100px;
+  background-image: linear-gradient(180deg, #d7f8fa, #95f8ff, #1eeefd);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+/*
+@media (max-width: 900px) {
+  .themes-grid {
+    grid-template-columns: 1fr;
+  }
+}
+*/
+@media (max-width: 768px) {
+    .header {
+        display: block;
+    }    
+    .header a {
+        display: none;
+    }
+    .header a.icon {
+        float: right;
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .header.responsive {
+        position: relative;
+    }
+    .header.responsive .icon {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .header.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .about-image img {
+    width: 400px;
+    }
+    .theme-card {
+    max-width: 300px;
+    margin: 1rem; 
+    }
+}
+
+@media (max-width: 550px) {
+    .about-image img {
+        width: 320px;
+    }
+}
